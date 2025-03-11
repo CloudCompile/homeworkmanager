@@ -61,14 +61,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const subtitle = document.getElementById('subtitle');
     let subtitleText = [
         "You are Mark. You are Mark. You are Mark. You are Mark. You are Mark. You are Mark. You are Mark.",
-        "Fuck off calendars!",
+        "Frick off calendars!",
         "Calendars aren't eating a penny from me!",
         "Hello, You are Mark. No worries this is normal amnesia.",
         "You need to do your homework, you know that right? RIGHT?!",
-        "Shut the fuck up and go studying!",
-        "Bruh when is the summer gonna start?",
+        "Shut the frick up and go studying!",
+        "Bruh, when is the summer gonna start?",
         "Programming stuff starts in the next quarter there is not much time left; I hope.",
-        "You are a fucking idiot, you know that right? RIGHT?!",
     ];
 
     subtitle.textContent = subtitleText[Math.floor(Math.random() * subtitleText.length)];
