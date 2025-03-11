@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Homework Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="assignmentPopup" class="assignment-popup">
+        <div class="popup-content">
+            <h3 id="popupDate"></h3>
+            <ul id="assignmentList"></ul>
+            <button id="closePopup">Close</button>
+        </div>
+    </div>
+    <div class="themeselector" id="themeSelector">
+        <button class="glass theme-button" id="themeButton">Themes</button>
+        <div class="side-menu" id="sideMenu">
+        </div>
+    </div>
+    <div class="addshit glass">
+        <div class="titles">
+            <h2>Advanced Homework Planner 📝</h2>
+            <h3 id="subtitle">Fuck you calendar apps! I ain't givin you a penny!</h3>
+        </div>
+        <form id="homeworkForm" class="mainform">
+            <label for="dateGiven">Date Given:</label>
+            <input type="date" id="dateGiven" class="date-input" required>
+
+            <label for="dueDate">Due Date:</label>
+            <input type="date" id="dueDate" class="date-input" required>
+
+            <button type="button" id="addTaskButton" class="date-button">Add assignment</button>
+            <button type="submit" class="date-button">Plan my homework!</button>
+
+            <div class="tasks-container" id="tasksContainer">
+                <!-- Tasks will be dynamically added here -->
+            </div>
+        </form>
+    </div>
+
+    <div class="calendar-cunt glass">
+        <div id="calendar" class="calendar">
+            <div class="calendar-header">
+                <button id="prevMonth">&lt;</button>
+                <h2 id="monthYear"></h2>
+                <button id="nextMonth">&gt;</button>
+            </div>
+            <div class="weekdays">
+                <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+            </div>
+            <div id="calendarDays" class="days"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+    </script>
+</body>
+</html>
