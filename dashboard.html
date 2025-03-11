@@ -9,18 +9,6 @@
 </head>
 <body>
   
-    <h2>Welcome to the Dashboard</h2>
-    <button onclick="logout()">Logout</button>
-    <script>
-        if (localStorage.getItem("loggedIn") !== "true") {
-            window.location.href = "index.html"; // Redirect to login
-        }
-
-        function logout() {
-            localStorage.removeItem("loggedIn");
-            window.location.href = "index.html";
-        }
-    </script>
   
     <div id="assignmentPopup" class="assignment-popup">
         <div class="popup-content">
